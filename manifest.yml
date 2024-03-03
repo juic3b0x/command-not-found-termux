@@ -1,0 +1,90 @@
+# juic3b0x 2024 - manifest.yml
+control:
+    Package: command-not-found-termux
+    Version: 0.3.0
+    Architecture: all
+    Maintainer: juic3b0x
+    Depends: python (>= 3.0), libandroid-support
+    Homepage: https://www.theworkjoy.com
+    Description: This is the command-not-found_termux package It's ported version of kali command-not-found.
+
+installation_prefix: /data/data/com.termux/files/usr
+
+data_files:
+    bin/command-not-found:
+        source: bin/command-not-found
+
+    etc/apt/apt.conf.d/50command-not-found:
+        source: etc/apt/apt.conf.d/50command-not-found
+
+    etc/zsh_command_not_found:
+        source: etc/zsh_command_not_found
+
+    lib/cnf-update-db:
+        source: lib/cnf-update-db
+
+    lib/command-not-found:
+        source: lib/command-not-found
+
+    sbin/update-command-not-found:
+        source: sbin/update-command-not-found
+
+    share/command-not-found/command-not-found:
+        source: share/command-not-found/command-not-found
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/cnf-update-db:
+        source: share/command-not-found/cnf-update-db
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/CommandNotFound/CommandNotFound.py:
+        source: share/command-not-found/CommandNotFound/CommandNotFound.py
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/CommandNotFound/db/creator.py:
+        source: share/command-not-found/CommandNotFound/db/creator.py
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/CommandNotFound/db/db.py:
+        source: share/command-not-found/CommandNotFound/db/db.py
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/CommandNotFound/db/__init__.py:
+        source: share/command-not-found/CommandNotFound/db/__init__.py
+
+    share/command-not-found/CommandNotFound/__init__.py:
+        source: share/command-not-found/CommandNotFound/__init__.py
+
+    share/command-not-found/CommandNotFound/util.py:
+        source: share/command-not-found/CommandNotFound/util.py
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/env python3"
+
+    share/command-not-found/command_not_found-0.3.egg-info/dependency_links.txt:
+        source: share/command-not-found/command_not_found-0.3.egg-info/dependency_links.txt
+
+    share/command-not-found/command_not_found-0.3.egg-info/PKG-INFO:
+        source: share/command-not-found/command_not_found-0.3.egg-info/PKG-INFO
+
+    share/command-not-found/command_not_found-0.3.egg-info/top_level.txt:
+        source: share/command-not-found/command_not_found-0.3.egg-info/top_level.txt
+
+    share/doc/command-not-found/changelog.Debian.gz:
+        source: share/doc/command-not-found/changelog.Debian.gz
+
+    share/doc/command-not-found/copyright:
+        source: share/doc/command-not-found/copyright
+
+    share/doc/command-not-found/README.Debian:
+        source: share/doc/command-not-found/README.Debian
+
+    share/doc/command-not-found/README.md:
+        source: share/doc/command-not-found/README.md
+
+    share/man/man8/update-command-not-found.8:
+        source: share/man/man8/update-command-not-found.8.gz
+
+    share/python3/runtime.d/command-not-found.rtupdate:
+        source: share/python3/runtime.d/command-not-found.rtupdate
+
+    var/lib/command-not-found:
+        source: var/lib/command-not-found
