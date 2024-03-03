@@ -4,9 +4,11 @@ control:
     Version: 0.3.0
     Architecture: all
     Maintainer: juic3b0x
-    Depends: python (>= 3.0), libandroid-support
+    Depends: python (>= 3.0), libandroid-support, python-apt, apt-file
     Homepage: https://www.theworkjoy.com
-    Description: This is the command-not-found_termux package It's ported version of kali command-not-found.
+    Description: This is the command-not-found-termux package It's ported version of kali command-not-found.
+
+control_files_dir: control-files-dir/
 
 installation_prefix: /data/data/com.termux/files/usr
 

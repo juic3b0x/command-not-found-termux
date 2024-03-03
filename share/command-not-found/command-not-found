@@ -89,7 +89,7 @@ def main():
         try:
             cnf = CommandNotFound.CommandNotFound(options.data_dir)
         except FileNotFoundError:
-            print(_("Could not find command-not-found database. Run 'sudo apt update' to populate it."), file=sys.stderr)
+            print(_("Could not find command-not-found database. Run 'pkg update' to populate it."), file=sys.stderr)
             print(_("%s: command not found") % args[0], file=sys.stderr)
             return
         if not cnf.advise(args[0], options.ignore_installed) and not options.no_failure_msg:

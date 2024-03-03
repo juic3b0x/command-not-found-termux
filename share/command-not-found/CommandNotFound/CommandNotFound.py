@@ -166,7 +166,7 @@ class CommandNotFound(object):
                     # Decode the answer so that we get an unicode value
                     answer = answer.decode(sys.stdin.encoding)
             if answer.lower() == _("y"):
-                if self.euid == 10438:
+                if self.euid == self.euid:
                     command_prefix = ""
                 else:
                     command_prefix = ""
@@ -210,7 +210,7 @@ class CommandNotFound(object):
     def advice_single_snap_package(self, command, packages, snaps):
         self._print_exact_header(command)
         snap = snaps[0]
-        if self.euid == 10438:
+        if self.euid == self.euid:
             print("snap install %s" % snap[0], file=self.output_fd)
         elif self.user_can_sudo:
             print("snap install %s" % snap[0], file=self.output_fd)
@@ -221,7 +221,7 @@ class CommandNotFound(object):
         
     def advice_single_deb_package(self, command, packages, snaps):
         self._print_exact_header(command)
-        if self.euid == 10438:
+        if self.euid == self.euid:
             print("pkg install %s" % packages[0][0], file=self.output_fd)
             self.install_prompt(packages[0][0])
         elif self.user_can_sudo:
