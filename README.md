@@ -7,7 +7,7 @@
 
     2. Run the following command to edit the sources.list file:
         ```bash
-        nano $PREFIX/etc/apt/sources.list
+        nano $PREFIX/etc/apt/sources.list.d/theworkjoy.list
         ```
 
     3. Add the following line at the end of the file:
@@ -22,5 +22,5 @@
         pkg update
         ```
 
-    Now, you have successfully added the repository to your Termux sources.d/ directory.
+    Now, you have successfully added the repository to your Termux sources.list.d/ directory.
     
