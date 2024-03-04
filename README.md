@@ -1,3 +1,5 @@
+![Command Not Found Termux](https://raw.githubusercontent.com/juic3b0x/command-not-found-termux/main/screen-20240304-011800.webp)
+
 ## Table of Contents
 1. [Adding Repo Source.list](#1-adding-repo-sourcelist)
 2. [Installing Package](#2-installing-package)
