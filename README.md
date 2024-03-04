@@ -1,9 +1,9 @@
 ## Table of Contents
-1. [Adding Repo Source.list](#adding-repo-source-list)
-2. [Installing Package](#installing-package)
-3. [Editing .zshrc](#editing-zshrc)
-4. [Updating commands.db](#updating-commands-db)
-5. [Edit command_not_found_handler](#edit-command_not_found_handler)
+1. [Adding Repo Source.list](#1-adding-repo-sourcelist)
+2. [Installing Package](#2-installing-package)
+3. [Editing .zshrc](#3-editing-zshrc)
+4. [Edit command_not_found_handler](#4-edit-command_not_found_handler)
+5. [Updating commands.db](#5-updating-commandsdb)
 
 ---
 
