@@ -2,6 +2,7 @@
 set -e
 if [ "$1" = "purge" ]; then
 	rm -rf $PREFIX/share/command-not-found
+	rm -rf $PREFIX/etc/apt/trusted.gpg.d/repo.theworkjoy.com.gpg
 	rm -rf $PREFIX/var/lib/command-not-found || exit 1
 fi
 #DEBHELPER#
